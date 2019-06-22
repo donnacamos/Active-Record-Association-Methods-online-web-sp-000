@@ -11,6 +11,6 @@ class Artist < ActiveRecord::Base
   end
 
   def genre_count
-    genres = 
+    genres = self.songs.collect do |
   end
 end
